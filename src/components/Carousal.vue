@@ -58,8 +58,8 @@ export default {
   overflow: hidden;
 }
 .image-class {
-  width: 92.5vw;
-  height: 92.5vh;
+  width: 90.75vw;
+  height: 90.75vh;
   vertical-align: middle;
 }
 </style>
