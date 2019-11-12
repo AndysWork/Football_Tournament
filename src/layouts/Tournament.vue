@@ -230,7 +230,7 @@ ul li {
   background: #1aa85c;
 }
 .red b {
-  color: #c64545;
+  color: red;
 }
 .blue b {
   color: #2d5772;
@@ -250,7 +250,7 @@ ul li {
   transition: transform 0.5s;
 }
 .btn-custom {
-  background: #c64545;
+  background: #45c6b5;
   color: #fff;
   border-radius: 20px;
 }
