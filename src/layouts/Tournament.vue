@@ -455,7 +455,7 @@ ul li {
   transition: transform 0.5s;
 }
 .btn-custom {
-  background: #45c6b5;
+  background: #4592c6;
   color: #fff;
   border-radius: 20px;
 }
