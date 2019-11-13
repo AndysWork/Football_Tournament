@@ -1,5 +1,5 @@
 <template>
-  <div class="image-carousel">
+  <div class="image-carousel w-100">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -58,6 +58,6 @@ export default {
   overflow: hidden;
 }
 .image-class {
-  height: 90.8vh;
+  height: 92.5vh;
 }
 </style>

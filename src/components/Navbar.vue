@@ -3,7 +3,7 @@
     <b-navbar-brand href="/">Collins United FC</b-navbar-brand>
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-nav>
+      <b-navbar-nav class="nav--height">
         <b-nav-item href="#">News</b-nav-item>
         <b-nav-item href="#">Gallery</b-nav-item>
         <b-nav-item href="/tournament">Collins Futsal 1.0</b-nav-item>
@@ -40,3 +40,8 @@ export default {
   name: "Navbar"
 };
 </script>
+<style>
+.nav--height {
+  height: 40px;
+}
+</style>
