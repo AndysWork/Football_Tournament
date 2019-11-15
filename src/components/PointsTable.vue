@@ -10,10 +10,10 @@ export default {
   data() {
     return {
       items: [
-        { Team: "Blasters", GP: "1", Points: "3", Win: "1", Draw:"0", Lost:"0", GS:"1", GC:"0", GD:"1" },
-        { Team: "Blasters", GP: "1", Points: "3", Win: "1", Draw:"0", Lost:"0", GS:"1", GC:"0", GD:"1" },
-        { Team: "Blasters", GP: "1", Points: "3", Win: "1", Draw:"0", Lost:"0", GS:"1", GC:"0", GD:"1" },
-        { Team: "Blasters", GP: "1", Points: "3", Win: "1", Draw:"0", Lost:"0", GS:"1", GC:"0", GD:"1" }
+        { Team: "TBD", GP: "0", Points: "0", Win: "0", Draw:"0", Lost:"0", GS:"0", GC:"0", GD:"0" },
+        { Team: "TBD", GP: "0", Points: "0", Win: "0", Draw:"0", Lost:"0", GS:"0", GC:"0", GD:"0" },
+        { Team: "TBD", GP: "0", Points: "0", Win: "0", Draw:"0", Lost:"0", GS:"0", GC:"0", GD:"0" },
+        { Team: "TBD", GP: "0", Points: "0", Win: "0", Draw:"0", Lost:"0", GS:"0", GC:"0", GD:"0" }
       ]
     };
   }
