@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-Vue.config.productionTip = true
+Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(Router)
 new Vue({
