@@ -7,6 +7,7 @@ import Teams from './components/Teams.vue';
 import LiveScores from './components/LiveScores.vue';
 import Fixtures from './components/Fixtures.vue';
 import Rules from './components/Rules.vue';
+import Bidding from './components/Bidding.vue';
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +41,10 @@ export default new Router({
         {
             path: '/tournament/rules',
             component: Rules
+        },
+        {
+            path: '/tournament/bidding',
+            component: Bidding
         }
     ]
 })
