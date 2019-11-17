@@ -4,15 +4,11 @@
       <b-form-select v-model="selected" :options="options"></b-form-select>
     </div>
     <div class="container-fluid p-3 align-players">
-      <div v-if="getTeamDetails()" class="row">
-        <div v-for="(team,index) in selectedTeam" v-bind:key="index">
+      <div v-if="getTeamDetails" class="row">
+        <div v-for="(team,index) in getTeamDetails" v-bind:key="index">
           <div v-for="(player, index) in team.players" v-bind:key="index">
             <div>
-              <b-card
-                :title="player.name"
-                style="max-width: 20rem;"
-                class="mb-2"
-              >
+              <b-card :title="player.name" style="max-width: 20rem;" class="mb-2">
                 <!-- <b-card-text>{{player.email}}</b-card-text> -->
               </b-card>
             </div>
@@ -77,10 +73,10 @@ export default {
       ]
     };
   },
-  methods: {
+  computed: {
     getTeamDetails() {
-      this.selectedTeam = this.teams.filter(team => team.id === this.selected);
-      return this.selectedTeam;
+      return this.teams.filter(team => team.id === this.selected);
+      // return selectedTeam;
     }
   }
 };
