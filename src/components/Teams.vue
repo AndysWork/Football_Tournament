@@ -10,10 +10,6 @@
             <div>
               <b-card
                 :title="player.name"
-                :img-src="imagePath"
-                img-alt="Image"
-                img-top
-                tag="article"
                 style="max-width: 20rem;"
                 class="mb-2"
               >
