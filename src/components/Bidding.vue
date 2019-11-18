@@ -28,7 +28,7 @@
               <b-card-text v-if="player.isAvailable">
                 <b-badge
                   variant="warning"
-                  onclick="window.open('https://tinyurl.com/futsal-bid')"
+                  onclick="window.open('https://tinyurl.com/vve5ndy')"
                 >Wanna BID?</b-badge>
               </b-card-text>
             </b-card>
