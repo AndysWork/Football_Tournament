@@ -14,7 +14,7 @@
       @sliding-end="onSlideEnd"
     >
       <b-carousel-slide
-        class="fluid image-class"
+        class="img-fluid image-class img-responsive"
         v-for="(image,index) in images"
         :img-src="image.url"
         v-bind:key="index"
