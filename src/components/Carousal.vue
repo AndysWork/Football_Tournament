@@ -37,7 +37,10 @@ export default {
           url: require("../assets/images/2.jpg")
         },
         {
-          url: require("../assets/images/3.png")
+          url: require("../assets/images/logo.jpg")
+        },
+        {
+          url: require("../assets/images/us.jpg")
         }
       ]
     };
