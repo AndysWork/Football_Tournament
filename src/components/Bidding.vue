@@ -127,6 +127,13 @@ export default {
           position: "Defender, Midfielder",
           isAvailable: true,
           currentTeam: ""
+        },
+        {
+          name: "Vishesh Manav",
+          email: "vishesh.manav@rockwellcollins.com",
+          position: "Midfielder",
+          isAvailable: true,
+          currentTeam: ""
         }
       ]
     };
