@@ -39,7 +39,8 @@ export default {
         { value: "null", text: "Choose your Ninja" },
         { value: 1, text: "Platform Footballers" },
         { value: 2, text: "WEREWOLVES FC" },
-        { value: 3, text: "ISES Blasters" }
+        { value: 3, text: "ISES Blasters" },
+        { value: 4, text: "Sporting FC"}
       ],
       teams: [
         {
@@ -153,6 +154,44 @@ export default {
             {
               name: "Sampurna Murali Kakarlapudi",
               email: "sampurna.murali.kakarlapudi@rockwellcollins.com"
+            }
+          ]
+        },
+        {
+          id: 4,
+          teamName: "Sporting FC",
+          players: [
+            {
+              name: "Anoop V (C)",
+              email: "anoop.vasudevan@rockwellcollins.com"
+            },
+            {
+              name: "Shyamjith Menoth",
+              email: "shyamjith.menoth@rockwellcollins.com"
+            },
+            {
+              name: "Md Amir Sohail",
+              email: "md.amir.sohail.ansari@rockwellcollins.com"
+            },
+            {
+              name: "Dhanesh EV",
+              email: "dhanesh.edalattu.velayudhan@rockwellcollins.com"
+            },
+            {
+              name: "Bharath Siva",
+              email: "bharath.siva@rockwellcollins.com"
+            },
+            {
+              name: "Jasim Kandi",
+              email: "jasim.vadakke.nagathan.kandi@rockwellcollins.com"
+            },
+            {
+              name: "Akhil Parackal",
+              email: "akhil.parackal.suresh@rockwellcollins.com"
+            },
+            {
+              name: "Anso Mamachan",
+              email: "anso.mamachan1@rockwellcollins.com"
             }
           ]
         }
