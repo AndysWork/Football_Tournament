@@ -113,6 +113,20 @@ export default {
           position: "Defender",
           isAvailable: true,
           currentTeam: ""
+        },
+        {
+          name: "Manoj Jain",
+          email: "manoj.jain@rockwellcollins.com",
+          position: "Defender",
+          isAvailable: true,
+          currentTeam: ""
+        },
+        {
+          name: "Rudresha YR",
+          email: "rudresha.crn@rockwellcollins.com",
+          position: "Defender, Midfielder",
+          isAvailable: true,
+          currentTeam: ""
         }
       ]
     };
