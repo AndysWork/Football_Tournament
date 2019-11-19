@@ -106,6 +106,13 @@ export default {
           position: "Defender, Striker",
           isAvailable: false,
           currentTeam: "ISES Blasters"
+        },
+        {
+          name: "Bhaskara",
+          email: "bhaskara.puttaswamaiah@rockwellcollins.com",
+          position: "Defender",
+          isAvailable: true,
+          currentTeam: ""
         }
       ]
     };
