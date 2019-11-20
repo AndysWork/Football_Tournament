@@ -71,10 +71,10 @@ export default {
               name: "Sai Sadineni",
               email: "sai.anvesh.sadineni@rockwellcollins.com"
             },
-            // {
-            //   name: "Jasim Kandi",
-            //   email: "jasim.vadakke.nagathan.kandi@rockwellcollins.com"
-            // },
+            {
+              name: "Kartik Prahalad",
+              email: "kartik.prahalad.kowligi@rockwellcollins.com"
+            },
             {
               name: "Franklin Francis",
               email: "franklin.francis@rockwellcollins.com"
