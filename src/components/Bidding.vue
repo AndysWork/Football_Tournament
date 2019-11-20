@@ -111,8 +111,8 @@ export default {
           name: "Bhaskara",
           email: "bhaskara.puttaswamaiah@rockwellcollins.com",
           position: "Defender",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "All has bad knees"
         },
         {
           name: "Manoj Jain",

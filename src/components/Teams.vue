@@ -4,9 +4,9 @@
       <b-form-select v-model="selected" :options="options"></b-form-select>
     </div>
     <div class="container-fluid p-3 align-players">
-      <div class="row">
-        <div v-if="getTeamDetails">
-          <div v-for="(team,index) in getTeamDetails" v-bind:key="index">
+      <div v-if="getTeamDetails">
+        <div v-for="(team,index) in getTeamDetails" v-bind:key="index">
+          <div class="row">
             <div class="m-auto" v-for="(player, index) in team.players" v-bind:key="index">
               <div>
                 <b-card
@@ -40,7 +40,9 @@ export default {
         { value: 1, text: "Platform Footballers" },
         { value: 2, text: "WEREWOLVES FC" },
         { value: 3, text: "ISES Blasters" },
-        { value: 4, text: "Sporting FC"}
+        { value: 4, text: "Sporting FC" },
+        { value: 5, text: "All has bad knees" },
+        { value: 6, text: "PTS Panthers" }
       ],
       teams: [
         {
@@ -192,6 +194,78 @@ export default {
             {
               name: "Anso Mamachan",
               email: "anso.mamachan1@rockwellcollins.com"
+            }
+          ]
+        },
+        {
+          id: 5,
+          teamName: "All has bad knees",
+          players: [
+            {
+              name: "Bhaskara Puttaswamaiah (C)",
+              email: "bhaskara.puttaswamaiah@rockwellcollins.com"
+            },
+            {
+              name: "Srikanth Annumandla",
+              email: "srikanth.annumandla@rockwellcollins.com"
+            },
+            {
+              name: "Mayank Raj",
+              email: "mayank.raj@rockwellcollins.com"
+            },
+            {
+              name: "Nitish Singh",
+              email: "Nitish.singh@rockwellcollins.com"
+            },
+            {
+              name: "Sadiq M",
+              email: "mohammed.sadiq.kareem.saheb@rockwellcollins.com"
+            },
+            {
+              name: "Ashish Sharma",
+              email: "ashish.sharma@rockwellcollins.com"
+            },
+            {
+              name: "Ashish Shrikhande",
+              email: "ashish.shrikhande@rockwellcollins.com "
+            }
+          ]
+        },
+        {
+          id: 6,
+          teamName: "PTS Panthers",
+          players: [
+            {
+              name: "Seeni Azhar (C)",
+              email: "seeni.azar.akbar@rockwellcollins.com"
+            },
+            {
+              name: "Lakshmi Prasad",
+              email: "lakshmi.prasad.mallela@rockwellcollins.com"
+            },
+            {
+              name: "Wahedullah",
+              email: "waheedulla.ubayadulla@rockwellcollins.com"
+            },
+            {
+              name: "Nithish Baskaran",
+              email: "nithish.vivek.raja.samuel.baskaran@rockwellcollins.com"
+            },
+            {
+              name: "Tushar",
+              email: "tushar.tiwari@rockwellcollins.com"
+            },
+            {
+              name: "Balasubramanian Arumugam",
+              email: "balasubramanian.arumugam@rockwellcollins.com"
+            },
+            {
+              name: "Thiru",
+              email: "thirunavukkarasu.alagarsamy@rockwellcollins.com"
+            },
+            {
+              name: "Vasanth raj",
+              email: "vasanthraj.radhakrishnan@rockwellcollins.com"
             }
           ]
         }
