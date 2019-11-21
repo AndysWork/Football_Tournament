@@ -142,20 +142,8 @@ export default {
               email: "abrar.farooq.taploo@rockwellcollins.com"
             },
             {
-              name: "Suresh M",
-              email: "suresh.m@rockwellcollins.com"
-            },
-            {
-              name: "Rajdeep Chakraborty",
-              email: "rajdeep.chakraborty@rockwellcollins.com"
-            },
-            {
               name: "Hardik Agarwal",
               email: "hardik.agarwal@rockwellcollins.com"
-            },
-            {
-              name: "Sampurna Murali Kakarlapudi",
-              email: "sampurna.murali.kakarlapudi@rockwellcollins.com"
             }
           ]
         },
