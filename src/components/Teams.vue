@@ -144,6 +144,10 @@ export default {
             {
               name: "Hardik Agarwal",
               email: "hardik.agarwal@rockwellcollins.com"
+            },
+            {
+              name: "Kunal Pal Varma",
+              email: "kunal.pal.varma@rockwellcollins.com"
             }
           ]
         },
