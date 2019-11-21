@@ -64,8 +64,8 @@ export default {
           name: "Kunal Pal Varma",
           email: "kunal.pal.varma@rockwellcollins.com",
           position: "Striker",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "ISES Blasters"
         },
         {
           name: "Biplab Datta",
