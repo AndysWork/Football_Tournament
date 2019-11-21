@@ -64,20 +64,22 @@ export default {
           name: "Kunal Pal Varma",
           email: "kunal.pal.varma@rockwellcollins.com",
           position: "Striker",
-          isAvailable: true
+          isAvailable: true,
+          currentTeam: ""
         },
         {
           name: "Biplab Datta",
           email: "biplab.datta@rockwellcollins.com",
           position: "Defender, Midfielder, Striker",
-          isAvailable: true
+          isAvailable: true,
+          currentTeam: ""
         },
         {
           name: "Sampurna Murali Kakarlapudi",
           email: "sampurna.murali.kakarlapudi@rockwellcollins.com",
           position: "Goal Keeper",
-          isAvailable: false,
-          currentTeam: "ISES Blasters"
+          isAvailable: true,
+          currentTeam: ""
         },
         {
           name: "Hardik Agarwal",
@@ -90,20 +92,13 @@ export default {
           name: "Rajdeep Chakraborty",
           email: "rajdeep.chakraborty@rockwellcollins.com",
           position: "Defender",
-          isAvailable: false,
-          currentTeam: "ISES Blasters"
+          isAvailable: true,
+          currentTeam: ""
         },
         {
           name: "Abrar Farooq",
           email: "abrar.farooq.taploo@rockwellcollins.com",
           position: "Striker",
-          isAvailable: false,
-          currentTeam: "ISES Blasters"
-        },
-        {
-          name: "Suresh M",
-          email: "suresh.m@rockwellcollins.com",
-          position: "Defender, Striker",
           isAvailable: false,
           currentTeam: "ISES Blasters"
         },
