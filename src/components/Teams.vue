@@ -143,6 +143,10 @@ export default {
               email: "abrar.farooq.taploo@rockwellcollins.com"
             },
             {
+              name: "Suresh M",
+              email: "suresh.m@rockwellcollins.com"
+            },
+            {
               name: "Hardik Agarwal",
               email: "hardik.agarwal@rockwellcollins.com"
             },
