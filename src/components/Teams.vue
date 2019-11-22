@@ -42,7 +42,8 @@ export default {
         { value: 3, text: "ISES Blasters" },
         { value: 4, text: "Sporting FC" },
         { value: 5, text: "All has bad knees" },
-        { value: 6, text: "PTS Panthers" }
+        { value: 6, text: "PTS Panthers" },
+        { value: 7, text: "FMS Rangers" }
       ],
       teams: [
         {
@@ -262,6 +263,40 @@ export default {
             {
               name: "Vasanth raj",
               email: "vasanthraj.radhakrishnan@rockwellcollins.com"
+            }
+          ]
+        },
+        {
+          id: 7,
+          teamName: "FMS Rangers",
+          players: [
+            {
+              name: "Gokul P (C)",
+              email: "gokul.puthiyottil@rockwellcollins.com"
+            },
+            {
+              name: "Akshay Kumar",
+              email: "akshay.kumar@rockwellcollins.com"
+            },
+            {
+              name: "Bijin Varghese Mathew",
+              email: "bijin.varghese.mathew@rockwellcollins.com"
+            },
+            {
+              name: "Nagarjuna Hanumantharayappa",
+              email: "nagarjuna.hanumantharayappa@rockwellcollins.com"
+            },
+            {
+              name: " Aravinda Krishna",
+              email: "aravinda.krishna.kambadaraya@rockwellcollins.com"
+            },
+            {
+              name: "Rudresha YR",
+              email: "rudresha.crn@rockwellcollins.com"
+            },
+            {
+              name: "Prajwal Hagalawadi",
+              email: "prajwal.hagalawadi@rockwellcollins.com"
             }
           ]
         }
