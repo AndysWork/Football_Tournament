@@ -129,6 +129,20 @@ export default {
           position: "Midfielder",
           isAvailable: true,
           currentTeam: ""
+        },
+        {
+          name: "Gowtham Kannan",
+          email: "gowtham.kannan@rockwellcollins.com",
+          position: "Goal Keeper, Defender",
+          isAvailable: true,
+          currentTeam: ""
+        },
+        {
+          name: "Vinod Kumar V",
+          email: "vinod.kumarv@rockwellcollins.com",
+          position: "Defender, Midfielder",
+          isAvailable: true,
+          currentTeam: ""
         }
       ]
     };
