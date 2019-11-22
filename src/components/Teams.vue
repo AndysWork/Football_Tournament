@@ -148,6 +148,10 @@ export default {
             {
               name: "Kunal Pal Varma",
               email: "kunal.pal.varma@rockwellcollins.com"
+            },
+            {
+              name: "Biplab Datta",
+              email: "biplab.datta@rockwellcollins.com"
             }
           ]
         },
