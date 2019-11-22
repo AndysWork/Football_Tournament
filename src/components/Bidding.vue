@@ -50,8 +50,8 @@ export default {
           name: "Aravinda Krishna K",
           email: "aravinda.krishna.kambadaraya@rockwellcollins.com",
           position: "Midfielder, Striker",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "FMS Rangers"
         },
         {
           name: "Chinmaya Mishra",
@@ -120,8 +120,8 @@ export default {
           name: "Rudresha YR",
           email: "rudresha.crn@rockwellcollins.com",
           position: "Defender, Midfielder",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "FMS Rangers"
         },
         {
           name: "Vishesh Manav",
