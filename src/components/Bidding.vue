@@ -71,8 +71,8 @@ export default {
           name: "Biplab Datta",
           email: "biplab.datta@rockwellcollins.com",
           position: "Defender, Midfielder, Striker",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "ISES Blasters"
         },
         {
           name: "Sampurna Murali Kakarlapudi",
