@@ -11,7 +11,7 @@
               <div>
                 <b-card
                   :title="player.name"
-                  :img-src="imagePath"
+                  :img-src="team.logoPath"
                   img-alt="Image"
                   img-top
                   tag="article"
@@ -34,12 +34,11 @@ export default {
     return {
       selected: null,
       selectedTeam: [],
-      imagePath: require("../assets/images/4.jpg"),
       options: [
         { value: "null", text: "Choose your Ninja" },
         { value: 1, text: "Platform Footballers" },
         { value: 2, text: "WEREWOLVES FC" },
-        { value: 3, text: "ISES Blasters" },
+        { value: 3, text: "Inflight United" },
         { value: 4, text: "Sporting FC" },
         { value: 5, text: "All has bad knees" },
         { value: 6, text: "PTS Panthers" },
@@ -48,6 +47,7 @@ export default {
       teams: [
         {
           id: 1,
+          logoPath: "require("../assets/images/4.jpg")",
           teamName: "Platform Footballers",
           players: [
             {
@@ -86,6 +86,7 @@ export default {
         },
         {
           id: 2,
+          logoPath: "require("../assets/images/4.jpg")",
           teamName: "WEREWOLVES FC",
           players: [
             {
@@ -124,7 +125,8 @@ export default {
         },
         {
           id: 3,
-          teamName: "ISES Blasters",
+          logoPath: "require("../assets/images/Inflight_United.png")",
+          teamName: "Inflight United",
           players: [
             {
               name: "Gourab Paul (C)",
@@ -162,6 +164,7 @@ export default {
         },
         {
           id: 4,
+          logoPath: "require("../assets/images/Sporting_FC.png")",
           teamName: "Sporting FC",
           players: [
             {
@@ -200,6 +203,7 @@ export default {
         },
         {
           id: 5,
+          logoPath: "require("../assets/images/4.jpg")",
           teamName: "All has bad knees",
           players: [
             {
@@ -234,6 +238,7 @@ export default {
         },
         {
           id: 6,
+          logoPath: "require("../assets/images/4.jpg")",
           teamName: "PTS Panthers",
           players: [
             {
@@ -272,6 +277,7 @@ export default {
         },
         {
           id: 7,
+          logoPath: "require("../assets/images/4.jpg")",
           teamName: "FMS Rangers",
           players: [
             {
