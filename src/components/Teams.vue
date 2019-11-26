@@ -86,7 +86,7 @@ export default {
         },
         {
           id: 2,
-          logoPath: "require("../assets/images/4.jpg")",
+          logoPath: require("../assets/images/4.jpg"),
           teamName: "WEREWOLVES FC",
           players: [
             {
@@ -125,7 +125,7 @@ export default {
         },
         {
           id: 3,
-          logoPath: "require("../assets/images/Inflight_United.png")",
+          logoPath: require("../assets/images/Inflight_United.png"),
           teamName: "Inflight United",
           players: [
             {
@@ -164,7 +164,7 @@ export default {
         },
         {
           id: 4,
-          logoPath: "require("../assets/images/Sporting_FC.png")",
+          logoPath: require("../assets/images/Sporting_FC.png"),
           teamName: "Sporting FC",
           players: [
             {
@@ -203,7 +203,7 @@ export default {
         },
         {
           id: 5,
-          logoPath: "require("../assets/images/4.jpg")",
+          logoPath: require("../assets/images/4.jpg"),
           teamName: "All has bad knees",
           players: [
             {
@@ -238,7 +238,7 @@ export default {
         },
         {
           id: 6,
-          logoPath: "require("../assets/images/4.jpg")",
+          logoPath: require("../assets/images/4.jpg"),
           teamName: "PTS Panthers",
           players: [
             {
@@ -277,7 +277,7 @@ export default {
         },
         {
           id: 7,
-          logoPath: "require("../assets/images/4.jpg")",
+          logoPath: require("../assets/images/4.jpg"),
           teamName: "FMS Rangers",
           players: [
             {
