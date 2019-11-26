@@ -47,7 +47,7 @@ export default {
       teams: [
         {
           id: 1,
-          logoPath: "require("../assets/images/4.jpg")",
+          logoPath: require("../assets/images/4.jpg"),
           teamName: "Platform Footballers",
           players: [
             {
