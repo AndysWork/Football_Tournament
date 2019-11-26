@@ -171,6 +171,13 @@ export default {
           position: "Defender, Midfielder, Striker",
           isAvailable: true,
           currentTeam: ""
+        },
+        {
+          name: "Marwan Nizamuddin",
+          email: "marwan.nizamuddin@rockwellcollins.com",
+          position: "Defender, Midfielder",
+          isAvailable: true,
+          currentTeam: ""
         }
       ]
     };
