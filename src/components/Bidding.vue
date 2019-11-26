@@ -155,8 +155,8 @@ export default {
           name: "Shaik Ali Basha",
           email: "ali.basha.shaik@rockwellcollins.com",
           position: "Defender",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "FMS Rangers"
         },
         {
           name: "Saurabh Joshi",
