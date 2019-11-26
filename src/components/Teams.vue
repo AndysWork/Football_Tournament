@@ -79,8 +79,8 @@ export default {
               email: "kartik.prahalad.kowligi@rockwellcollins.com"
             },
             {
-              name: "Franklin Francis",
-              email: "franklin.francis@rockwellcollins.com"
+              name: "Veeresh Patil",
+              email: "veeresh.patil@rockwellcollins.com"
             }
           ]
         },
@@ -307,6 +307,10 @@ export default {
             {
               name: "Prajwal Hagalawadi",
               email: "prajwal.hagalawadi@rockwellcollins.com"
+            },
+            {
+              name: "Shaik Ali Basha",
+              email: "ali.basha.shaik@rockwellcollins.com"
             }
           ]
         }
