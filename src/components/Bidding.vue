@@ -143,6 +143,34 @@ export default {
           position: "Defender, Midfielder",
           isAvailable: true,
           currentTeam: ""
+        },
+        {
+          name: "Ruhul Amin Choudhury",
+          email: "ruhul.amin.choudhury@rockwellcollins.com",
+          position: "Striker",
+          isAvailable: true,
+          currentTeam: ""
+        },
+        {
+          name: "Shaik Ali Basha",
+          email: "ali.basha.shaik@rockwellcollins.com",
+          position: "Defender",
+          isAvailable: true,
+          currentTeam: ""
+        },
+        {
+          name: "Saurabh Joshi",
+          email: "saurabh.joshi@rockwellcollins.com",
+          position: "Striker",
+          isAvailable: true,
+          currentTeam: ""
+        },
+        {
+          name: "Rajaniakant",
+          email: "rajanikant.badiger@rockwellcollins.com",
+          position: "Defender, Midfielder, Striker",
+          isAvailable: true,
+          currentTeam: ""
         }
       ]
     };
