@@ -36,7 +36,7 @@ export default {
       selectedTeam: [],
       options: [
         { value: "null", text: "Choose your Ninja" },
-        { value: 1, text: "Platform Footballers" },
+        { value: 1, text: "Golden Boot" },
         { value: 2, text: "WEREWOLVES FC" },
         { value: 3, text: "Inflight United" },
         { value: 4, text: "Sporting FC" },
@@ -47,8 +47,8 @@ export default {
       teams: [
         {
           id: 1,
-          logoPath: require("../assets/images/4.jpg"),
-          teamName: "Platform Footballers",
+          logoPath: require("../assets/images/Golden_Boot.jpg"),
+          teamName: "Golden Boot",
           players: [
             {
               name: "Madhavan Sekar (C)",
