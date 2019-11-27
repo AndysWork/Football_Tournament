@@ -282,7 +282,7 @@ export default {
         },
         {
           id: 7,
-          logoPath: require("../assets/images/4.jpg"),
+          logoPath: require("../assets/images/Rangers_Fc.png"),
           teamName: "FMS Rangers",
           players: [
             {
@@ -329,7 +329,7 @@ export default {
               email: "marwan.nizamuddin@rockwellcollins.com"
             },
             {
-              name: "Rajaniakant",
+              name: "Rajaniakant Badiger",
               email: "rajanikant.badiger@rockwellcollins.com"
             },
             {
