@@ -42,7 +42,8 @@ export default {
         { value: 4, text: "Sporting FC" },
         { value: 5, text: "All has bad knees" },
         { value: 6, text: "PTS Panthers" },
-        { value: 7, text: "FMS Rangers" }
+        { value: 7, text: "FMS Rangers" },
+        { value: 8, text: "Vandals" }
       ],
       teams: [
         {
@@ -157,8 +158,12 @@ export default {
               email: "kunal.pal.varma@rockwellcollins.com"
             },
             {
-              name: "Biplab Datta",
-              email: "biplab.datta@rockwellcollins.com"
+              name: "Vishnu Mohan",
+              email: "vishnu.mohan@rockwellcollins.com"
+            },
+            {
+              name: "Manoj Jain",
+              email: "manoj.jain@rockwellcollins.com"
             }
           ]
         },
@@ -311,6 +316,49 @@ export default {
             {
               name: "Shaik Ali Basha",
               email: "ali.basha.shaik@rockwellcollins.com"
+            }
+          ]
+        },
+        {
+          id: 8,
+          logoPath: require("../assets/images/4.jpg"),
+          teamName: "Vandals",
+          players: [
+            {
+              name: "Marwan Nizamuddin (C)",
+              email: "marwan.nizamuddin@rockwellcollins.com"
+            },
+            {
+              name: "Rajaniakant",
+              email: "rajanikant.badiger@rockwellcollins.com"
+            },
+            {
+              name: "Saurabh Joshi",
+              email: "saurabh.joshi@rockwellcollins.com"
+            },
+            {
+              name: "Ruhul Amin Choudhury",
+              email: "ruhul.amin.choudhury@rockwellcollins.com"
+            },
+            {
+              name: "Vinod Kumar V",
+              email: "vinod.kumarv@rockwellcollins.com"
+            },
+            {
+              name: "Gowtham Kannan",
+              email: "gowtham.kannan@rockwellcollins.com"
+            },
+            {
+              name: "Vishesh Manav",
+              email: "vishesh.manav@rockwellcollins.com"
+            },
+            {
+              name: "Rajdeep Chakraborty",
+              email: "rajdeep.chakraborty@rockwellcollins.com"
+            },
+            {
+              name: "Biplab Datta",
+              email: "biplab.datta@rockwellcollins.com"
             }
           ]
         }
