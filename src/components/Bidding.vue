@@ -58,49 +58,42 @@ export default {
           email: "chinmaya.mishra@rockwellcollins.com",
           position: "Defender, Striker",
           isAvailable: false,
-          currentTeam: "ISES Blasters"
+          currentTeam: "Inflight United"
         },
         {
           name: "Kunal Pal Varma",
           email: "kunal.pal.varma@rockwellcollins.com",
           position: "Striker",
           isAvailable: false,
-          currentTeam: "ISES Blasters"
+          currentTeam: "Inflight United"
         },
         {
           name: "Biplab Datta",
           email: "biplab.datta@rockwellcollins.com",
           position: "Defender, Midfielder, Striker",
           isAvailable: false,
-          currentTeam: "ISES Blasters"
-        },
-        {
-          name: "Sampurna Murali Kakarlapudi",
-          email: "sampurna.murali.kakarlapudi@rockwellcollins.com",
-          position: "Goal Keeper",
-          isAvailable: true,
-          currentTeam: ""
+          currentTeam: "Vandals"
         },
         {
           name: "Hardik Agarwal",
           email: "hardik.agarwal@rockwellcollins.com",
           position: "Midfielder",
           isAvailable: false,
-          currentTeam: "ISES Blasters"
+          currentTeam: "Inflight United"
         },
         {
           name: "Rajdeep Chakraborty",
           email: "rajdeep.chakraborty@rockwellcollins.com",
           position: "Defender",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
         },
         {
           name: "Abrar Farooq",
           email: "abrar.farooq.taploo@rockwellcollins.com",
           position: "Striker",
           isAvailable: false,
-          currentTeam: "ISES Blasters"
+          currentTeam: "Inflight United"
         },
         {
           name: "Bhaskara",
@@ -113,8 +106,8 @@ export default {
           name: "Manoj Jain",
           email: "manoj.jain@rockwellcollins.com",
           position: "Defender",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Inflight United"
         },
         {
           name: "Rudresha YR",
@@ -127,29 +120,29 @@ export default {
           name: "Vishesh Manav",
           email: "vishesh.manav@rockwellcollins.com",
           position: "Midfielder",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
         },
         {
           name: "Gowtham Kannan",
           email: "gowtham.kannan@rockwellcollins.com",
           position: "Goal Keeper, Defender",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
         },
         {
           name: "Vinod Kumar V",
           email: "vinod.kumarv@rockwellcollins.com",
           position: "Defender, Midfielder",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
         },
         {
           name: "Ruhul Amin Choudhury",
           email: "ruhul.amin.choudhury@rockwellcollins.com",
           position: "Striker",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
         },
         {
           name: "Shaik Ali Basha",
@@ -162,22 +155,29 @@ export default {
           name: "Saurabh Joshi",
           email: "saurabh.joshi@rockwellcollins.com",
           position: "Striker",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
         },
         {
           name: "Rajaniakant",
           email: "rajanikant.badiger@rockwellcollins.com",
           position: "Defender, Midfielder, Striker",
           isAvailable: true,
-          currentTeam: ""
+          currentTeam: "Vandals"
         },
         {
           name: "Marwan Nizamuddin",
           email: "marwan.nizamuddin@rockwellcollins.com",
           position: "Defender, Midfielder",
-          isAvailable: true,
-          currentTeam: ""
+          isAvailable: false,
+          currentTeam: "Vandals"
+        },
+        {
+          name: "Vishnu Mohan",
+          email: "vishnu.mohan@rockwellcollins.com",
+          position: "Goal Keeper",
+          isAvailable: false,
+          currentTeam: "Inflight United"
         }
       ]
     };
