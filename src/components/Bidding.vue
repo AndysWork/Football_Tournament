@@ -159,10 +159,10 @@ export default {
           currentTeam: "Vandals"
         },
         {
-          name: "Rajaniakant",
+          name: "Rajaniakant Badiger",
           email: "rajanikant.badiger@rockwellcollins.com",
           position: "Defender, Midfielder, Striker",
-          isAvailable: true,
+          isAvailable: false,
           currentTeam: "Vandals"
         },
         {
