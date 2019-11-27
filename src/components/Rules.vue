@@ -67,7 +67,7 @@ export default {
         },
         {
           Mandatory_Rules:
-            "A Free Kick will be given at the spot where a foul has occured."
+            "A Free Kick will be given at the spot where a foul has occured. Man wall(Max 2 Man) have to place after 5 footstep."
         },
         {
           Mandatory_Rules:
@@ -103,7 +103,7 @@ export default {
         },
         {
           Mandatory_Rules:
-            "If a goal keeper catches the ball outside the penalty area, it leads to a penalty immediately(No warnings)."
+            "If a goal keeper catches the ball outside the penalty area, it leads to a Free Kick or Yellow Card + Free Kick (Based on situation)"
         },
         {
           Mandatory_Rules:

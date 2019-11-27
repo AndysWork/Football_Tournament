@@ -100,7 +100,7 @@ export default {
           email: "bhaskara.puttaswamaiah@rockwellcollins.com",
           position: "Defender",
           isAvailable: false,
-          currentTeam: "All has bad knees"
+          currentTeam: "The Bad Knees"
         },
         {
           name: "Manoj Jain",

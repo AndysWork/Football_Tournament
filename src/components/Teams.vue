@@ -36,96 +36,57 @@ export default {
       selectedTeam: [],
       options: [
         { value: "null", text: "Choose your Ninja" },
-        { value: 1, text: "Golden Boot" },
-        { value: 2, text: "WEREWOLVES FC" },
-        { value: 3, text: "Inflight United" },
-        { value: 4, text: "Sporting FC" },
-        { value: 5, text: "All has bad knees" },
-        { value: 6, text: "PTS Panthers" },
+        { value: 1, text: "Sporting FC" },
+        { value: 2, text: "Inflight United" },
+        { value: 3, text: "Vandals" },
+        { value: 4, text: "The Bad Knees" },
+        { value: 5, text: "PTS Panthers" },
+        { value: 6, text: "Golden Boot" },
         { value: 7, text: "FMS Rangers" },
-        { value: 8, text: "Vandals" }
+        { value: 8, text: "WEREWOLVES FC" }
       ],
       teams: [
         {
           id: 1,
-          logoPath: require("../assets/images/Golden_Boot.jpg"),
-          teamName: "Golden Boot",
+          logoPath: require("../assets/images/Sporting_FC.png"),
+          teamName: "Sporting FC",
           players: [
             {
-              name: "Madhavan Sekar (C)",
-              email: "Madhavan.Sekar@rockwellcollins.com"
+              name: "Anoop V (C)",
+              email: "anoop.vasudevan@rockwellcollins.com"
             },
             {
-              name: "Shubham Dangare",
-              email: "shubham.kashunath.dangare@rockwellcollins.com"
+              name: "Shyamjith Menoth",
+              email: "shyamjith.menoth@rockwellcollins.com"
             },
             {
-              name: "Sachin Shet",
-              email: "sachin.shet@rockwellcollins.com"
+              name: "Md Amir Sohail",
+              email: "md.amir.sohail.ansari@rockwellcollins.com"
             },
             {
-              name: "Manjunath Gangadhara",
-              email: "manjunath.gangadhara@rockwellcollins.com"
+              name: "Dhanesh EV",
+              email: "dhanesh.edalattu.velayudhan@rockwellcollins.com"
             },
             {
-              name: "Anil Vemula",
-              email: "anil.kumar.vemula1@rockwellcollins.com"
+              name: "Bharath Siva",
+              email: "bharath.siva@rockwellcollins.com"
             },
             {
-              name: "Sai Sadineni",
-              email: "sai.anvesh.sadineni@rockwellcollins.com"
+              name: "Jasim Kandi",
+              email: "jasim.vadakke.nagathan.kandi@rockwellcollins.com"
             },
             {
-              name: "Kartik Prahalad",
-              email: "kartik.prahalad.kowligi@rockwellcollins.com"
+              name: "Akhil Parackal",
+              email: "akhil.parackal.suresh@rockwellcollins.com"
             },
             {
-              name: "Veeresh Patil",
-              email: "veeresh.patil@rockwellcollins.com"
+              name: "Anso Mamachan",
+              email: "anso.mamachan1@rockwellcollins.com"
             }
           ]
         },
         {
           id: 2,
-          logoPath: require("../assets/images/Werewolves_Fc.jpg"),
-          teamName: "WEREWOLVES FC",
-          players: [
-            {
-              name: "Vignesh Thukaram (C)",
-              email: "vignesh.thukaram@rockwellcollins.com"
-            },
-            {
-              name: "SRINIDHI SN",
-              email: "srinidhi.n@rockwellcollins.com"
-            },
-            {
-              name: "Sumit Solankar",
-              email: "sumit.sukhadev.solankar@rockwellcollins.com"
-            },
-            {
-              name: "Vinayaka Deskar",
-              email: "vinayaka.r.deskar@rockwellcollins.com"
-            },
-            {
-              name: "Koustav Das",
-              email: "koustav.das@rockwellcollins.com"
-            },
-            {
-              name: "Sahil Dilip Kamble",
-              email: "sahil.dilip.kamble@rockwellcollins.com"
-            },
-            {
-              name: "SUBHAKAR Krishnamoorthy",
-              email: "subhakar.krishnamoorthy@rockwellcollins.com"
-            },
-            {
-              name: "Nithin Kazhinhikkarathekkedath",
-              email: "nithin.kazhinhikkarathekkedath@rockwellcollins.com"
-            }
-          ]
-        },
-        {
-          id: 3,
           logoPath: require("../assets/images/Inflight_United.png"),
           teamName: "Inflight United",
           players: [
@@ -168,48 +129,52 @@ export default {
           ]
         },
         {
-          id: 4,
-          logoPath: require("../assets/images/Sporting_FC.png"),
-          teamName: "Sporting FC",
+          id: 3,
+          logoPath: require("../assets/images/Vandals.jpg"),
+          teamName: "Vandals",
           players: [
             {
-              name: "Anoop V (C)",
-              email: "anoop.vasudevan@rockwellcollins.com"
+              name: "Marwan Nizamuddin (C)",
+              email: "marwan.nizamuddin@rockwellcollins.com"
             },
             {
-              name: "Shyamjith Menoth",
-              email: "shyamjith.menoth@rockwellcollins.com"
+              name: "Rajaniakant Badiger",
+              email: "rajanikant.badiger@rockwellcollins.com"
             },
             {
-              name: "Md Amir Sohail",
-              email: "md.amir.sohail.ansari@rockwellcollins.com"
+              name: "Saurabh Joshi",
+              email: "saurabh.joshi@rockwellcollins.com"
             },
             {
-              name: "Dhanesh EV",
-              email: "dhanesh.edalattu.velayudhan@rockwellcollins.com"
+              name: "Ruhul Amin Choudhury",
+              email: "ruhul.amin.choudhury@rockwellcollins.com"
             },
             {
-              name: "Bharath Siva",
-              email: "bharath.siva@rockwellcollins.com"
+              name: "Vinod Kumar V",
+              email: "vinod.kumarv@rockwellcollins.com"
             },
             {
-              name: "Jasim Kandi",
-              email: "jasim.vadakke.nagathan.kandi@rockwellcollins.com"
+              name: "Gowtham Kannan",
+              email: "gowtham.kannan@rockwellcollins.com"
             },
             {
-              name: "Akhil Parackal",
-              email: "akhil.parackal.suresh@rockwellcollins.com"
+              name: "Vishesh Manav",
+              email: "vishesh.manav@rockwellcollins.com"
             },
             {
-              name: "Anso Mamachan",
-              email: "anso.mamachan1@rockwellcollins.com"
+              name: "Rajdeep Chakraborty",
+              email: "rajdeep.chakraborty@rockwellcollins.com"
+            },
+            {
+              name: "Biplab Datta",
+              email: "biplab.datta@rockwellcollins.com"
             }
           ]
         },
         {
-          id: 5,
-          logoPath: require("../assets/images/4.jpg"),
-          teamName: "All has bad knees",
+          id: 4,
+          logoPath: require("../assets/images/The_Bad_Knees.jpg"),
+          teamName: "The Bad Knees",
           players: [
             {
               name: "Bhaskara Puttaswamaiah (C)",
@@ -242,7 +207,7 @@ export default {
           ]
         },
         {
-          id: 6,
+          id: 5,
           logoPath: require("../assets/images/PTS_Panthers.jpg"),
           teamName: "PTS Panthers",
           players: [
@@ -277,6 +242,45 @@ export default {
             {
               name: "Vasanth raj",
               email: "vasanthraj.radhakrishnan@rockwellcollins.com"
+            }
+          ]
+        },
+        {
+          id: 6,
+          logoPath: require("../assets/images/Golden_Boot.jpg"),
+          teamName: "Golden Boot",
+          players: [
+            {
+              name: "Madhavan Sekar (C)",
+              email: "Madhavan.Sekar@rockwellcollins.com"
+            },
+            {
+              name: "Shubham Dangare",
+              email: "shubham.kashunath.dangare@rockwellcollins.com"
+            },
+            {
+              name: "Sachin Shet",
+              email: "sachin.shet@rockwellcollins.com"
+            },
+            {
+              name: "Manjunath Gangadhara",
+              email: "manjunath.gangadhara@rockwellcollins.com"
+            },
+            {
+              name: "Anil Vemula",
+              email: "anil.kumar.vemula1@rockwellcollins.com"
+            },
+            {
+              name: "Sai Sadineni",
+              email: "sai.anvesh.sadineni@rockwellcollins.com"
+            },
+            {
+              name: "Kartik Prahalad",
+              email: "kartik.prahalad.kowligi@rockwellcollins.com"
+            },
+            {
+              name: "Veeresh Patil",
+              email: "veeresh.patil@rockwellcollins.com"
             }
           ]
         },
@@ -321,44 +325,40 @@ export default {
         },
         {
           id: 8,
-          logoPath: require("../assets/images/Vandals.jpg"),
-          teamName: "Vandals",
+          logoPath: require("../assets/images/Werewolves_Fc.jpg"),
+          teamName: "WEREWOLVES FC",
           players: [
             {
-              name: "Marwan Nizamuddin (C)",
-              email: "marwan.nizamuddin@rockwellcollins.com"
+              name: "Vignesh Thukaram (C)",
+              email: "vignesh.thukaram@rockwellcollins.com"
             },
             {
-              name: "Rajaniakant Badiger",
-              email: "rajanikant.badiger@rockwellcollins.com"
+              name: "SRINIDHI SN",
+              email: "srinidhi.n@rockwellcollins.com"
             },
             {
-              name: "Saurabh Joshi",
-              email: "saurabh.joshi@rockwellcollins.com"
+              name: "Sumit Solankar",
+              email: "sumit.sukhadev.solankar@rockwellcollins.com"
             },
             {
-              name: "Ruhul Amin Choudhury",
-              email: "ruhul.amin.choudhury@rockwellcollins.com"
+              name: "Vinayaka Deskar",
+              email: "vinayaka.r.deskar@rockwellcollins.com"
             },
             {
-              name: "Vinod Kumar V",
-              email: "vinod.kumarv@rockwellcollins.com"
+              name: "Koustav Das",
+              email: "koustav.das@rockwellcollins.com"
             },
             {
-              name: "Gowtham Kannan",
-              email: "gowtham.kannan@rockwellcollins.com"
+              name: "Sahil Dilip Kamble",
+              email: "sahil.dilip.kamble@rockwellcollins.com"
             },
             {
-              name: "Vishesh Manav",
-              email: "vishesh.manav@rockwellcollins.com"
+              name: "SUBHAKAR Krishnamoorthy",
+              email: "subhakar.krishnamoorthy@rockwellcollins.com"
             },
             {
-              name: "Rajdeep Chakraborty",
-              email: "rajdeep.chakraborty@rockwellcollins.com"
-            },
-            {
-              name: "Biplab Datta",
-              email: "biplab.datta@rockwellcollins.com"
+              name: "Nithin Kazhinhikkarathekkedath",
+              email: "nithin.kazhinhikkarathekkedath@rockwellcollins.com"
             }
           ]
         }
