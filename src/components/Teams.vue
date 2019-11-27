@@ -87,7 +87,7 @@ export default {
         },
         {
           id: 2,
-          logoPath: require("../assets/images/4.jpg"),
+          logoPath: require("../assets/images/WEREWOLVES_FC.PNG"),
           teamName: "WEREWOLVES FC",
           players: [
             {
@@ -243,7 +243,7 @@ export default {
         },
         {
           id: 6,
-          logoPath: require("../assets/images/4.jpg"),
+          logoPath: require("../assets/images/PTS_Panthers.jpg"),
           teamName: "PTS Panthers",
           players: [
             {
@@ -321,7 +321,7 @@ export default {
         },
         {
           id: 8,
-          logoPath: require("../assets/images/4.jpg"),
+          logoPath: require("../assets/images/Vandals.jpg"),
           teamName: "Vandals",
           players: [
             {
