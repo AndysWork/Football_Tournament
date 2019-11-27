@@ -87,7 +87,7 @@ export default {
         },
         {
           id: 2,
-          logoPath: require("../assets/images/WEREWOLVES_FC.PNG"),
+          logoPath: require("../assets/images/Werewolves_Fc.jpg"),
           teamName: "WEREWOLVES FC",
           players: [
             {
