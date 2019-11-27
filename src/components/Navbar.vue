@@ -4,8 +4,8 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="nav--height">
-        <b-nav-item href="#">News</b-nav-item>
-        <b-nav-item href="#">Gallery</b-nav-item>
+        <!-- <b-nav-item href="#">News</b-nav-item>
+        <b-nav-item href="#">Gallery</b-nav-item> -->
         <b-nav-item href="/tournament">Futsal 1.0</b-nav-item>
       </b-navbar-nav>
 
