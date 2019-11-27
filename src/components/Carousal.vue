@@ -14,7 +14,7 @@
       @sliding-end="onSlideEnd"
     >
       <b-carousel-slide
-        class="img-fluid image-class img-responsive"
+        class="img-fluid slider-image-class img-responsive"
         v-for="(image,index) in images"
         :img-src="image.url"
         v-bind:key="index"
@@ -60,7 +60,7 @@ export default {
   position: relative;
   overflow: hidden;
 }
-.image-class {
+.slider-image-class {
   max-height: 100% ;
 }
 </style>
