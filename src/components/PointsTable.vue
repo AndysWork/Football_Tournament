@@ -49,7 +49,7 @@ export default {
       sortBy: "Points",
       sortDesc: false,
       fields1: [
-        { key: "teamlogo", label: "Team Name" },
+        { key: "teamlogo", label: "Team" },
         "GP",
         { key: "Points", sortable: true },
         "Win",
@@ -60,7 +60,7 @@ export default {
         "GD"
       ],
       fields2: [
-        { key: "teamlogo", label: "Team Name" },
+        { key: "teamlogo", label: "Team" },
         "GP",
         { key: "Points", sortable: true },
         "Win",
