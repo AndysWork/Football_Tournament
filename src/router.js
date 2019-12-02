@@ -4,7 +4,7 @@ import Home from './layouts/Home.vue';
 import Tournament from './layouts/Tournament.vue';
 import PointsTable from './components/PointsTable.vue';
 import Teams from './components/Teams.vue';
-import LiveScores from './components/LiveScores.vue';
+import LiveScores from './layouts/LiveScores.vue';
 import Fixtures from './components/Fixtures.vue';
 import Rules from './components/Rules.vue';
 import Bidding from './components/Bidding.vue';

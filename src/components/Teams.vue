@@ -203,6 +203,10 @@ export default {
             {
               name: "Ashish Shrikhande",
               email: "ashish.shrikhande@rockwellcollins.com "
+            },
+            {
+              name: "Seetharam Pandith",
+              email: "seetharam.pandith@rockwellcollins.com"
             }
           ]
         },
@@ -306,7 +310,7 @@ export default {
               email: "nagarjuna.hanumantharayappa@rockwellcollins.com"
             },
             {
-              name: " Aravinda Krishna",
+              name: "Aravinda Krishna",
               email: "aravinda.krishna.kambadaraya@rockwellcollins.com"
             },
             {

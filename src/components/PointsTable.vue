@@ -17,7 +17,6 @@
       <template v-slot:cell(teamlogo)="data">
         <router-link to="/tournament/teams">
           <img :src="data.item.imagePath" class="image-class" />
-          <!-- <i>{{data.item.Team}}</i> -->
         </router-link>
       </template>
       <template v-slot:cell()="data">
@@ -31,13 +30,16 @@
       <template v-slot:cell(teamlogo)="data">
         <router-link to="/tournament/teams">
           <img :src="data.item.imagePath" class="image-class" />
-          <!-- <i>{{data.item.Team}}</i> -->
         </router-link>
       </template>
       <template v-slot:cell()="data">
         <i>{{data.value }}</i>
       </template>
     </b-table>
+    <div class="text-center">
+      <b>Top 5 Players Stat</b>
+    </div>
+    <b-table striped bordered hover responsive :items="items3"></b-table>
   </div>
 </template>
 
@@ -168,6 +170,17 @@ export default {
           GS: "0",
           GC: "0",
           GD: "0"
+        }
+      ],
+      items3: [
+        {
+          Name: "",
+          Team: "",
+          Goals: "",
+          Asists: "",
+          CleanSheet: "",
+          MOTM: "",
+          Rating: ""
         }
       ]
     };
