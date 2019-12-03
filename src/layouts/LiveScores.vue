@@ -96,7 +96,7 @@ export default {
           time: "4:50 PM",
           result: "1 - 0",
           summary:
-            "Overall it was an entertaining match. It was a hard earned win for Bad Knees. A superb strike from THIRU" +
+            "Overall it was an entertaining match. It was a hard earned win for PANTHERS. A superb strike from THIRU" +
             " helped Panthers to win their first match. Golden Boot was also in the verge of scoring their first goal but failed to convert." +
             "It was like they had to keep their Golden Boot in the house!! So the final score was 1 - 0 in favour of PTS PANTHERS."
         },
@@ -107,7 +107,7 @@ export default {
           time: "5:10 PM",
           result: "0 - 7",
           summary:
-            "We have witnessed a raining of goals in this match. WEREWOLVES FC completely outplayed RANGERS. SRINIDHI fired three " +
+            "We have witnessed raining of goals in this match. WEREWOLVES FC completely outplayed RANGERS. SRINIDHI fired three " +
             "bullets in the back of the net, second hatrick of Futsal 1.0. KOUSTAV scored a brace and SUMIT scored one." +
             "On the other Side nothing went correct for FMS RANGERS. Their Goal Keeper had a tough time and also one Own Goal happened due to " +
             "the misunderstanding in between players!! So the final score was 7 - 0 in favour of WEREWOLVES."

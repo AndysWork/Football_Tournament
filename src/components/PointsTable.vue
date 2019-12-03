@@ -37,7 +37,7 @@
       </template>
     </b-table>
     <div class="text-center">
-      <b>Top 5 Players Statistics</b>
+      <b>Top Players Statistics</b>
     </div>
     <b-table striped bordered hover responsive :items="items3"></b-table>
   </div>
@@ -192,21 +192,21 @@ export default {
           Rating: ""
         },
         {
-          Name: "Thiru",
-          Team: "PTS Panthers",
-          GP: 2,
-          Goals: 3,
-          CleanSheet: 0,
-          MOTM: 1,
-          Rating: ""
-        },
-        {
           Name: "Koustav",
           Team: "Werewolves FC",
           GP: 1,
           Goals: 2,
           CleanSheet: 0,
           MOTM: 0,
+          Rating: ""
+        },
+        {
+          Name: "Thiru",
+          Team: "PTS Panthers",
+          GP: 2,
+          Goals: 2,
+          CleanSheet: 0,
+          MOTM: 1,
           Rating: ""
         },
         {
@@ -218,6 +218,42 @@ export default {
           MOTM: 1,
           Rating: ""
         },
+        {
+          Name: "Anoop",
+          Team: "Sporting FC",
+          GP: 2,
+          Goals: 2,
+          CleanSheet: 0,
+          MOTM: 0,
+          Rating: ""
+        },
+        {
+          Name: "Amir",
+          Team: "Sporting FC",
+          GP: 2,
+          Goals: 2,
+          CleanSheet: 0,
+          MOTM: 1,
+          Rating: ""
+        },
+        {
+          Name: "Seetharam",
+          Team: "Bad Knees",
+          GP: 1,
+          Goals: 1,
+          CleanSheet: 0,
+          MOTM: 1,
+          Rating: ""
+        },
+        {
+          Name: "Sumit",
+          Team: "Werewolves FC",
+          GP: 1,
+          Goals: 1,
+          CleanSheet: 0,
+          MOTM: 0,
+          Rating: ""
+        }
       ]
     };
   }
