@@ -26,7 +26,16 @@
     <div class="text-center">
       <b>GROUP B</b>
     </div>
-    <b-table striped bordered hover responsive :fields="fields2" :items="items2">
+    <b-table
+      striped
+      bordered
+      hover
+      responsive
+      :fields="fields2"
+      :sort-by.sync="sortBy"
+      :sort-desc.sync="sortDesc"
+      :items="items2"
+    >
       <template v-slot:cell(teamlogo)="data">
         <router-link to="/tournament/teams">
           <img :src="data.item.imagePath" class="image-class" />
@@ -49,7 +58,7 @@ export default {
   data() {
     return {
       sortBy: "Points",
-      sortDesc: false,
+      sortDesc: true,
       fields1: [
         { key: "teamlogo", label: "Team" },
         "GP",
@@ -176,7 +185,7 @@ export default {
         {
           Name: "Abrar",
           Team: "Inflight United",
-          GP:1,
+          GP: 1,
           Goals: 3,
           CleanSheet: 0,
           MOTM: 1,
