@@ -38,6 +38,42 @@
           <button class="btn btn-primary rightLst"></button>
         </div>
       </div>
+      <div>
+        <b>SEMI FINAL (9th Dec)</b>
+      </div>
+      <div class="row">
+        <div
+          class="MultiCarousel"
+          data-items="1,3,5,6"
+          data-slide="1"
+          id="MultiCarousel"
+          data-interval="1000"
+        >
+          <div class="MultiCarousel-inner">
+            <div v-for="(match,index) in semiMatches" :key="index">
+              <!-- <a href="#" @click.prevent="selectedMatch=match.id"> -->
+              <div class="item">
+                <div class="pad15">
+                  <p>
+                    <img :src="match.t1" class="score-image-class" />
+                    VS
+                    <img :src="match.t2" class="score-image-class" />
+                  </p>
+                  <p>
+                    <i>{{match.time}}</i>
+                  </p>
+                  <p>
+                    <i>{{match.result}}</i>
+                  </p>
+                </div>
+              </div>
+              <!-- </a> -->
+            </div>
+          </div>
+          <button class="btn btn-primary leftLst"></button>
+          <button class="btn btn-primary rightLst"></button>
+        </div>
+      </div>
       <div class="row">
         <div class="col-md-12 text-center" v-if="isValueSelected">
           <!-- <div>
@@ -45,7 +81,7 @@
           </div>-->
           <div v-for="(selMatch,index) in isValueSelected" :key="index">
             <p>
-              <b>Match Summary of </b>
+              <b>Match Summary of</b>
               <img :src="selMatch.t1" class="score-image-class" />
               VS
               <img :src="selMatch.t2" class="score-image-class" />
@@ -141,48 +177,63 @@ export default {
           t1: require("../assets/images/PTS_Panthers.jpg"),
           t2: require("../assets/images/Werewolves_Fc.jpg"),
           time: "4:00 PM",
-          result: "Stay Tuned!!",
-          summary: "Stay Tuned!!"
+          result: "0 - 1",
+          summary:
+            "Nail biting clash it was!! but the champ knows how to achieve it. Superb finess strike from KOUSTAV made the difference in the end." +
+            "VIGNESH made some breath taking saves to restrict PANTHERS from scoring. On the other hand THIRU was trying his luck again & again but all went in vain." +
+            "So the final score is 1 - 0 in favour of WEREWOLVES FC."
         },
         {
           id: 8,
           t1: require("../assets/images/Inflight_United.png"),
           t2: require("../assets/images/The_Bad_Knees.jpg"),
           time: "4:30 PM",
-          result: "Stay Tuned!!",
-          summary: "Stay Tuned!!"
+          result: "2 - 0",
+          summary:
+            "The match was abandoned. BAD KNEES were unable to show up due to some unavoidable circumstances. So the match considered " +
+            "as 2 - 0 win in favour of INFLIGHT UNITED."
         },
         {
           id: 9,
           t1: require("../assets/images/Golden_Boot.jpg"),
           t2: require("../assets/images/Werewolves_Fc.jpg"),
           time: "4:50 PM",
-          result: "Stay Tuned!!",
-          summary: "Stay Tuned!!"
+          result: "0 - 2",
+          summary:
+            "It was again a good day in office for WEREWOLVES FC. SRINIDHI & SAHIL bagged one goal each & help them to qualify for the SEEMIS " +
+            "as a Group Leader. GOLDEN BOOT was trying their best to score a goal but they were failing to convert at last. ANIL did some awesome saves to " +
+            "restrict WEREWOLVES FC from scoring additional goals. So the match ended with 2 - 0 in favour of WEREWOLVES FC."
         },
         {
           id: 10,
           t1: require("../assets/images/Inflight_United.png"),
           t2: require("../assets/images/Vandals.jpg"),
           time: "5:10 PM",
-          result: "Stay Tuned!!",
-          summary: "Stay Tuned!!"
+          result: "6 - 1",
+          summary:
+            "Captains Knock!! GOURAB Bags in a Hatrick. ABRAR was also stunned everone with a brace to became the top scorer after " +
+            "Group League. KUNAL opens his account with one cool finish. CHINMAYA was rock solid. VANDALS were trying to score goals and able to get only one from SAURABH's strike, which was " +
+            "not enough to outplay team like INFLIGHT UNITED. So the match ends with 6 - 1 in favour of INFLIGHT UNITED."
         },
         {
           id: 11,
           t1: require("../assets/images/Sporting_FC.png"),
           t2: require("../assets/images/The_Bad_Knees.jpg"),
           time: "5:30 PM",
-          result: "Stay Tuned!!",
-          summary: "Stay Tuned!!"
+          result: "2 - 0",
+          summary:
+            "The match was abandoned. BAD KNEES were unable to show up due to some unavoidable circumstances. So the match considered " +
+            "as 2 - 0 win in favour of SPORTING FC."
         },
         {
           id: 12,
           t1: require("../assets/images/Golden_Boot.jpg"),
           t2: require("../assets/images/Rangers_Fc.png"),
           time: "5:50 PM",
-          result: "Stay Tuned!!",
-          summary: "Stay Tuned!!"
+          result: "4 - 1",
+          summary:
+            "MADHABAN Bags in a superb hatrick and SHIVAM did a great job to clinch the victory. BIJIN return back one goal which" +
+            "was not enough to compete with a bunch of BOOTS which has a GOLDEN touch. So the match ends with 4 - 1 in favour of GOLDEN BOOT."
         }
         // {
         //   gbPath: require("../assets/images/Golden_Boot.jpg"),
@@ -194,6 +245,24 @@ export default {
         //   rfPath: require("../assets/images/Rangers_Fc.png"),
         //   vPath: require("../assets/images/Vandals.jpg")
         // }
+      ],
+      semiMatches: [
+        {
+          id: 1,
+          t1: require("../assets/images/Inflight_United.png"),
+          t2: require("../assets/images/PTS_Panthers.jpg"),
+          time: "4:00 PM",
+          result: "Stay Tuned!!",
+          summary: "Stay Tuned!!"
+        },
+        {
+          id: 2,
+          t1: require("../assets/images/Werewolves_Fc.jpg"),
+          t2: require("../assets/images/Sporting_FC.png"),
+          time: "4:40 PM",
+          result: "Stay Tuned!!",
+          summary: "Stay Tuned!!"
+        }
       ],
       selectedMatch: 0
     };
