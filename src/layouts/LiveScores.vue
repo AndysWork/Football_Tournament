@@ -81,7 +81,7 @@
           </div>-->
           <div v-for="(selMatch,index) in isValueSelected" :key="index">
             <p>
-              <b>Match Summary of</b>
+              <b>Match Summary of </b>
               <img :src="selMatch.t1" class="score-image-class" />
               VS
               <img :src="selMatch.t2" class="score-image-class" />

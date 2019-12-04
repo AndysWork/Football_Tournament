@@ -135,19 +135,19 @@
         <ul>
           <li>
             <a href="#">
-              <img :src="dfPath" class="image-class" /> GA_1
+              <img :src="iuPath" class="image-class" /> Inflight United
               <br />vs
               <br />
-              <img :src="dfPath" class="image-class" /> GB_2
+              <img :src="ppPath" class="image-class" /> PTS Panthers
               <br />4.00 PM
             </a>
           </li>
           <li>
             <a href="#">
-              <img :src="dfPath" class="image-class" /> GB_1
+              <img :src="wfPath" class="image-class" /> WEREWOLVES FC
               <br />vs
               <br />
-              <img :src="dfPath" class="image-class" /> GA_2
+              <img :src="sfPath" class="image-class" /> Sporting FC
               <br />4.40 PM
             </a>
           </li>
