@@ -54,7 +54,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Friendly Battles</b> are Scheduled!
+                  <b>Friendly Battles</b> are ON!
                 </li>
               </ul>
               <router-link
@@ -118,7 +118,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Live Battles</b> are coming soon!
+                  <b>Live Battles</b> are ON!
                 </li>
               </ul>
               <router-link
@@ -180,7 +180,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Ladder Game</b> is coming soon!
+                  <b>Ladder Game</b> has started!
                 </li>
               </ul>
               <router-link
