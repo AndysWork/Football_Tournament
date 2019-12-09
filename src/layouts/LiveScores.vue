@@ -240,7 +240,7 @@ export default {
           time: "5:50 PM",
           result: "4 - 1",
           summary:
-            "MADHABAN Bags in a superb hatrick and SHIVAM did a great job to clinch the victory. BIJIN return back one goal which" +
+            "MADHAVAN Bags in a superb hatrick and SHUBHAM did a great job to clinch the victory. BIJIN return back one goal which" +
             "was not enough to compete with a bunch of BOOTS which has a GOLDEN touch. So the match ends with 4 - 1 in favour of GOLDEN BOOT."
         }
         // {
