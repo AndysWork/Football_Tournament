@@ -52,19 +52,27 @@
           <div class="MultiCarousel-inner">
             <div v-for="(match,index) in semiMatches" :key="index">
               <!-- <a href="#" @click.prevent="selectedMatch=match.id"> -->
-              <div class="item">
-                <div class="pad15">
-                  <p>
-                    <img :src="match.t1" class="score-image-class" />
-                    VS
-                    <img :src="match.t2" class="score-image-class" />
-                  </p>
-                  <p>
-                    <i>{{match.time}}</i>
-                  </p>
-                  <p>
-                    <i>{{match.result}}</i>
-                  </p>
+              <div v-if="match.t1">
+                <div class="item">
+                  <div class="pad15">
+                    <p>
+                      <img :src="match.t1" class="score-image-class" />
+                      VS
+                      <img :src="match.t2" class="score-image-class" />
+                    </p>
+
+                    <p>
+                      <i>{{match.time}}</i>
+                    </p>
+                    <p>
+                      <i>{{match.result}}</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div v-else>
+                <div class="item">
+                  <div class="pad15">{{match.time}}</div>
                 </div>
               </div>
               <!-- </a> -->
@@ -81,7 +89,7 @@
           </div>-->
           <div v-for="(selMatch,index) in isValueSelected" :key="index">
             <p>
-              <b>Match Summary of </b>
+              <b>Match Summary of</b>
               <img :src="selMatch.t1" class="score-image-class" />
               VS
               <img :src="selMatch.t2" class="score-image-class" />
@@ -252,13 +260,45 @@ export default {
           t1: require("../assets/images/Inflight_United.png"),
           t2: require("../assets/images/PTS_Panthers.jpg"),
           time: "4:00 PM",
-          result: "Stay Tuned!!",
+          result: "2 - 2 (1-2 Penalties)",
           summary: "Stay Tuned!!"
         },
         {
           id: 2,
           t1: require("../assets/images/Werewolves_Fc.jpg"),
           t2: require("../assets/images/Sporting_FC.png"),
+          time: "4:40 PM",
+          result: "3 - 0",
+          summary: "Stay Tuned!!"
+        },
+        {
+          id: 3,
+          t1: "",
+          t2: "",
+          time: "3rd Place - 11th Dec",
+          result: "",
+          summary: ""
+        },
+        {
+          id: 4,
+          t1: require("../assets/images/Inflight_United.png"),
+          t2: require("../assets/images/Sporting_FC.png"),
+          time: "4:00 PM",
+          result: "Stay Tuned!!",
+          summary: "Stay Tuned!!"
+        },
+        {
+          id: 5,
+          t1: "",
+          t2: "",
+          time: "FINAL - 11th Dec",
+          result: "",
+          summary: ""
+        },
+        {
+          id: 6,
+          t1: require("../assets/images/Werewolves_Fc.jpg"),
+          t2: require("../assets/images/PTS_Panthers.jpg"),
           time: "4:40 PM",
           result: "Stay Tuned!!",
           summary: "Stay Tuned!!"

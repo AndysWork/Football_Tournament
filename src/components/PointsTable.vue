@@ -203,14 +203,23 @@ export default {
         {
           Name: "Abrar",
           Team: require("../assets/images/Inflight_United.png"),
-          GP: 2,
-          Goals: 5,
-          Assists: 2,
+          GP: 3,
+          Goals: 6,
+          Assists: 3,
           MOTM: 1,
           Rating: ""
         },
         {
           Name: "Srinidhi",
+          Team: require("../assets/images/Werewolves_Fc.jpg"),
+          GP: 4,
+          Goals: 5,
+          Assists: 2,
+          MOTM: 2,
+          Rating: ""
+        },
+        {
+          Name: "Koustav",
           Team: require("../assets/images/Werewolves_Fc.jpg"),
           GP: 3,
           Goals: 4,
@@ -221,18 +230,9 @@ export default {
         {
           Name: "Gourab",
           Team: require("../assets/images/Inflight_United.png"),
-          GP: 2,
-          Goals: 3,
-          Assists: 1,
-          MOTM: 1,
-          Rating: ""
-        },
-        {
-          Name: "Koustav",
-          Team: require("../assets/images/Werewolves_Fc.jpg"),
           GP: 3,
           Goals: 3,
-          Assists: 1,
+          Assists: 2,
           MOTM: 1,
           Rating: ""
         },
@@ -246,12 +246,12 @@ export default {
           Rating: ""
         },
         {
-          Name: "Anoop",
-          Team: require("../assets/images/Sporting_FC.png"),
-          GP: 2,
-          Goals: 2,
-          Assists: 2,
-          MOTM: 0,
+          Name: "Thiru",
+          Team: require("../assets/images/PTS_Panthers.jpg"),
+          GP: 4,
+          Goals: 3,
+          Assists: 1,
+          MOTM: 1,
           Rating: ""
         },
         {
@@ -264,28 +264,10 @@ export default {
           Rating: ""
         },
         {
-          Name: "Thiru",
-          Team: require("../assets/images/PTS_Panthers.jpg"),
-          GP: 3,
-          Goals: 2,
-          Assists: 1,
-          MOTM: 1,
-          Rating: ""
-        },
-        {
-          Name: "Amir",
+          Name: "Anoop",
           Team: require("../assets/images/Sporting_FC.png"),
-          GP: 2,
-          Goals: 2,
-          Assists: 0,
-          MOTM: 1,
-          Rating: ""
-        },
-        {
-          Name: "Sumit",
-          Team: require("../assets/images/Werewolves_Fc.jpg"),
           GP: 3,
-          Goals: 1,
+          Goals: 2,
           Assists: 2,
           MOTM: 0,
           Rating: ""
@@ -293,10 +275,28 @@ export default {
         {
           Name: "Kunal",
           Team: require("../assets/images/Inflight_United.png"),
-          GP: 2,
-          Goals: 1,
-          Assists: 1,
+          GP: 3,
+          Goals: 2,
+          Assists: 2,
           MOTM: 0,
+          Rating: ""
+        },
+        {
+          Name: "Sumit",
+          Team: require("../assets/images/Werewolves_Fc.jpg"),
+          GP: 4,
+          Goals: 2,
+          Assists: 2,
+          MOTM: 0,
+          Rating: ""
+        },
+        {
+          Name: "Amir",
+          Team: require("../assets/images/Sporting_FC.png"),
+          GP: 3,
+          Goals: 2,
+          Assists: 0,
+          MOTM: 1,
           Rating: ""
         }
       ]
