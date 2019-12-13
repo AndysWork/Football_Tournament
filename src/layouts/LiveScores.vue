@@ -284,7 +284,7 @@ export default {
           t1: require("../assets/images/Inflight_United.png"),
           t2: require("../assets/images/Sporting_FC.png"),
           time: "4:00 PM",
-          result: "Stay Tuned!!",
+          result: "2 - 1",
           summary: "Stay Tuned!!"
         },
         {
@@ -300,7 +300,7 @@ export default {
           t1: require("../assets/images/Werewolves_Fc.jpg"),
           t2: require("../assets/images/PTS_Panthers.jpg"),
           time: "4:40 PM",
-          result: "Stay Tuned!!",
+          result: "2 - 1",
           summary: "Stay Tuned!!"
         }
       ],

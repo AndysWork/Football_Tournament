@@ -54,7 +54,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Friendly Battles</b> are ON!
+                  <b>Friendly Battles</b> are OVER!
                 </li>
               </ul>
               <router-link
@@ -118,7 +118,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Live Battles</b> are ON!
+                  <b>Live Battles</b> are OVER!
                 </li>
               </ul>
               <router-link
@@ -180,7 +180,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Ladder Game</b> has started!
+                  <b>Ladder Game</b> has ended!
                 </li>
               </ul>
               <router-link
@@ -246,7 +246,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Certain Rules</b> are mandatory!
+                  <b>Certain Rules</b> were mandatory!
                 </li>
               </ul>
               <router-link
@@ -310,7 +310,7 @@
             <div class="card-body bg-white mt-0 shadow">
               <ul class="list-unstyled mb-5 position-relative">
                 <li>
-                  <b>Ninjas</b> are Awake!
+                  <b>Ninjas</b> are Sleeping!
                 </li>
               </ul>
               <router-link
