@@ -48,133 +48,133 @@ export default {
       players: [
         {
           name: "Aravinda Krishna K",
-          email: "aravinda.krishna.kambadaraya@rockwellcollins.com",
+          email: "aravinda.krishna.kambadaraya@test.com",
           position: "Midfielder, Striker",
           isAvailable: false,
           currentTeam: "FMS Rangers"
         },
         {
           name: "Chinmaya Mishra",
-          email: "chinmaya.mishra@rockwellcollins.com",
+          email: "chinmaya.mishra@test.com",
           position: "Defender, Striker",
           isAvailable: false,
           currentTeam: "Inflight United"
         },
         {
           name: "Kunal Pal Varma",
-          email: "kunal.pal.varma@rockwellcollins.com",
+          email: "kunal.pal.varma@test.com",
           position: "Striker",
           isAvailable: false,
           currentTeam: "Inflight United"
         },
         {
           name: "Biplab Datta",
-          email: "biplab.datta@rockwellcollins.com",
+          email: "biplab.datta@test.com",
           position: "Defender, Midfielder, Striker",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Hardik Agarwal",
-          email: "hardik.agarwal@rockwellcollins.com",
+          email: "hardik.agarwal@test.com",
           position: "Midfielder",
           isAvailable: false,
           currentTeam: "Inflight United"
         },
         {
           name: "Rajdeep Chakraborty",
-          email: "rajdeep.chakraborty@rockwellcollins.com",
+          email: "rajdeep.chakraborty@test.com",
           position: "Defender",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Abrar Farooq",
-          email: "abrar.farooq.taploo@rockwellcollins.com",
+          email: "abrar.farooq.taploo@test.com",
           position: "Striker",
           isAvailable: false,
           currentTeam: "Inflight United"
         },
         {
           name: "Bhaskara",
-          email: "bhaskara.puttaswamaiah@rockwellcollins.com",
+          email: "bhaskara.puttaswamaiah@test.com",
           position: "Defender",
           isAvailable: false,
           currentTeam: "The Bad Knees"
         },
         {
           name: "Manoj Jain",
-          email: "manoj.jain@rockwellcollins.com",
+          email: "manoj.jain@test.com",
           position: "Defender",
           isAvailable: false,
           currentTeam: "Inflight United"
         },
         {
           name: "Rudresha YR",
-          email: "rudresha.crn@rockwellcollins.com",
+          email: "rudresha.crn@test.com",
           position: "Defender, Midfielder",
           isAvailable: false,
           currentTeam: "FMS Rangers"
         },
         {
           name: "Vishesh Manav",
-          email: "vishesh.manav@rockwellcollins.com",
+          email: "vishesh.manav@test.com",
           position: "Midfielder",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Gowtham Kannan",
-          email: "gowtham.kannan@rockwellcollins.com",
+          email: "gowtham.kannan@test.com",
           position: "Goal Keeper, Defender",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Vinod Kumar V",
-          email: "vinod.kumarv@rockwellcollins.com",
+          email: "vinod.kumarv@test.com",
           position: "Defender, Midfielder",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Ruhul Amin Choudhury",
-          email: "ruhul.amin.choudhury@rockwellcollins.com",
+          email: "ruhul.amin.choudhury@test.com",
           position: "Striker",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Shaik Ali Basha",
-          email: "ali.basha.shaik@rockwellcollins.com",
+          email: "ali.basha.shaik@test.com",
           position: "Defender",
           isAvailable: false,
           currentTeam: "FMS Rangers"
         },
         {
           name: "Saurabh Joshi",
-          email: "saurabh.joshi@rockwellcollins.com",
+          email: "saurabh.joshi@test.com",
           position: "Striker",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Rajaniakant Badiger",
-          email: "rajanikant.badiger@rockwellcollins.com",
+          email: "rajanikant.badiger@test.com",
           position: "Defender, Midfielder, Striker",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Marwan Nizamuddin",
-          email: "marwan.nizamuddin@rockwellcollins.com",
+          email: "marwan.nizamuddin@test.com",
           position: "Defender, Midfielder",
           isAvailable: false,
           currentTeam: "Vandals"
         },
         {
           name: "Vishnu Mohan",
-          email: "vishnu.mohan@rockwellcollins.com",
+          email: "vishnu.mohan@test.com",
           position: "Goal Keeper",
           isAvailable: false,
           currentTeam: "Inflight United"
